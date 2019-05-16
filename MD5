@@ -1,8 +1,8 @@
-6ca7da40a94b2c0dd119e47498c30932 *DESCRIPTION
+211ccc7742d2af79df653198628405b3 *DESCRIPTION
 261dc774c11b5a84eb7049fd6ba4f419 *NAMESPACE
-071a0e23ea53e98647899b16b74c5744 *NEWS.md
+993a549636bdd5dabf6ff41bb67dbe2d *NEWS.md
 338440cfc9b96be79a8fd89f7c6a698b *R/apc-class.R
-ea0d3fc315eda2a010f9f0bd5879dd29 *R/bamp.R
+37b9e58fbe3d226e27d06139bb056866 *R/bamp.R
 08e8e1626a566984353b67c0306133ea *R/check_apc.R
 a45913cfaa7242eba3f04ded16ec1d6f *R/coh.R
 f29e05a3c974be4b7e6ea638eee0fc64 *R/datasets.R
@@ -13,13 +13,14 @@ e14ce2ce1ef6190b32235cef773a1736 *R/pr_aus_ksi_berechnen.R
 02ed478dc4fb5fdb7f5a4a28e94ed4f8 *R/predict_apc.R
 d4807eafd289221cba40b805d1f81475 *R/print_apc.R
 365c4cad560360a9e77cee4f97f445d7 *R/simulate_apc.R
+72d30b1a291a5c0a1b9c0a2945223d28 *R/zzz.R
 5160b5c74c48c3ba3001a025adc1c1b9 *README.md
-66064f48dae0c6d3a8916900dec0703b *build/vignette.rds
+db8a12980322ddb1dfb6c09718a842a0 *build/vignette.rds
 d91af18ab131fe1884ce824a83562b7c *data/apc.rdata
 01082df3d01f96fe8332b10b259eb138 *inst/CITATION
 3fc00b0b2cc28edb9f28583369c2aefa *inst/doc/bamp.R
 7fc60e3f898c86ab26fc4c4b01260b70 *inst/doc/bamp.Rmd
-3cd4293976807757bb5cf0659885d9c8 *inst/doc/bamp.html
+381c398e4f2d7cebea0265eab5a6cb3d *inst/doc/bamp.html
 89cb26a1de4d0339b3efa54de629b473 *inst/doc/modeling.html.asis
 39cbd6355f139f6df82f3daaf6a29d85 *inst/doc/modeling.pdf
 68486a07d52921977dfc7353ce5fa2eb *inst/doc/prediction.html.asis
@@ -38,7 +39,7 @@ b26550e411bead551dbb6ccb9cbda1e1 *man/effects.apc.Rd
 3ab1ea8311bc59211b06a86a2f393490 *man/print.apc.Rd
 6eb2387475cc5678aa65eb12800e5181 *src/Makevars
 6e5c9fb08a8169ab54e2383ed2657d0f *src/Makevars.win
-331539721f887618810ebcbffcf46552 *src/bamp.cc
+23df9d4d2fb9d653de9259e1d1e84893 *src/bamp.cc
 be4bb09edcf50a049ca9de84ae7f89f8 *src/bamp.h
 55a2aedef123c0938c18198b6ab97d95 *src/block.cc
 6008d219d3fb5a5d6de1415e97d80fd6 *src/block.h
