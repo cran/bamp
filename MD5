@@ -1,8 +1,8 @@
-606ed14025b00caa53c248eb9639f69f *DESCRIPTION
+e6975c97184f5c15f5e7ec35aa57b9d7 *DESCRIPTION
 261dc774c11b5a84eb7049fd6ba4f419 *NAMESPACE
-9d5a7f65a721c960602aadd08e278c22 *NEWS.md
+e332599529ea641fa067b4d878c80cd2 *NEWS.md
 338440cfc9b96be79a8fd89f7c6a698b *R/apc-class.R
-b26d65a291b223b1367d4018e440f9fb *R/bamp.R
+398a620a29958f0b4f267d90ac7966dc *R/bamp.R
 00329caa31562ba176260ac5312b7737 *R/check_apc.R
 a45913cfaa7242eba3f04ded16ec1d6f *R/coh.R
 f29e05a3c974be4b7e6ea638eee0fc64 *R/datasets.R
@@ -15,10 +15,10 @@ cca2553eb8655b68652187f3bc062a3b *R/print_apc.R
 365c4cad560360a9e77cee4f97f445d7 *R/simulate_apc.R
 72d30b1a291a5c0a1b9c0a2945223d28 *R/zzz.R
 04a5d8645e282f8154d44f1045aa4e48 *README.md
-97dda21b3dcd9163090b2161c1803097 *build/vignette.rds
+f4b7a1f4125ec14f26c0f74287107f54 *build/vignette.rds
 d91af18ab131fe1884ce824a83562b7c *data/apc.rdata
 01082df3d01f96fe8332b10b259eb138 *inst/CITATION
-f892c038421bea3d4fb1d5e273d1b892 *inst/doc/bamp.html
+d91d55c40fc4c1d2db4d217087a3b215 *inst/doc/bamp.html
 312e7ca885c903faafe38078865d77f4 *inst/doc/bamp.html.asis
 89cb26a1de4d0339b3efa54de629b473 *inst/doc/modeling.html.asis
 ff7b02c81f2d906bb0e8ed80fb1c07e3 *inst/doc/modeling.pdf
@@ -29,7 +29,7 @@ e54edd84639135d62c9ca63b64e06e74 *inst/doc/simulation.html.asis
 f79b7bddf29b519fda2853925c925d24 *man/apc.Rd
 0ccb492bff504c81882b1c0f6680c733 *man/apc.data.Rd
 a8199357dea46b2e6732f0c737c7781f *man/apcSimulate.Rd
-885011ac787c8cb13c1ed2d839da763a *man/bamp.Rd
+f3b56ac5ce858676889b9157a79c69eb *man/bamp.Rd
 b1ccfbad449c69c1f8c10ffa273361c4 *man/checkConvergence.Rd
 3c2ce236abba80797c955eaa46a385a4 *man/coh.Rd
 08e55fdd2723a2d4f33c5d0e5eb57d2d *man/effects.apc.Rd
@@ -47,7 +47,7 @@ c0fa1259c9af0b01b5fa93d08519ad5b *src/l.cc
 5ce0681dfa83fed62adaab1d27dda9f0 *src/l.h
 3f467ecf61bb0d86d7eedf8a36bc5c11 *src/matrix.cc
 c2f28c06b3906f2e36fde0abc9d9fba1 *src/matrix.h
-f539b51b05e605db567ea143ec95b1b6 *src/mxs.cc
+469c745a602ff3a8b3ceeaa3d2667c74 *src/mxs.cc
 5b282c47511402241a3e0d512acabb8b *src/mxs.h
 ca9c99e7cbe7bdb3322498c49452c26d *src/praez.cc
 e12701f8bc6929a15cf8a9e7e04e49fa *src/praez.h
@@ -58,10 +58,10 @@ b2643f0b9943d75733d2e1045dc5a45d *src/zufall.h
 6162803b6440b2edc1aac97767d8dac5 *src/zz_ksi.cc
 11d3624a3ca16f29c01d50465bfc5b58 *src/zz_ksi.h
 312e7ca885c903faafe38078865d77f4 *vignettes/bamp.html.asis
-8c7b84d6e183a91b854046f2e9e50c57 *vignettes/modeling.html
+523d34aa96be311b661ca04901e9a08a *vignettes/modeling.html
 89cb26a1de4d0339b3efa54de629b473 *vignettes/modeling.html.asis
-219adc181dfebab8c624cd1e73596416 *vignettes/prediction.html
+94eb9e8403618f776f51e1956d7ff151 *vignettes/prediction.html
 68486a07d52921977dfc7353ce5fa2eb *vignettes/prediction.html.asis
-51bac71cc3c71e387fd0a6a96da59b3d *vignettes/publications/publications.Rmd
-96e94ba7305337e0d4132f5a1016c256 *vignettes/simulation.html
+9c319d76e4061c05ee5fe920268cb7ea *vignettes/publications/publications.Rmd
+781c0bdae4fac8036fb43f6adc25e946 *vignettes/simulation.html
 e54edd84639135d62c9ca63b64e06e74 *vignettes/simulation.html.asis
