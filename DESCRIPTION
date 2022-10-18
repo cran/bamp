@@ -1,8 +1,8 @@
 Package: bamp
 Type: Package
 Title: Bayesian Age-Period-Cohort Modeling and Prediction
-Version: 2.1.1
-Date: 2022-05-04
+Version: 2.1.3
+Date: 2022-10-17
 Author: Volker Schmid [aut, cre],
   Florian Geressen [ctb],
   Leonhard Held [ctb],
@@ -15,12 +15,12 @@ Encoding: UTF-8
 Depends: R (>= 3.5.0)
 Imports: coda, graphics, parallel, stats, abind
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 VignetteBuilder: knitr, R.rsp
 Suggests: knitr, rmarkdown, R.rsp
 URL: https://volkerschmid.github.io/bamp/
 BugReports: https://github.com/volkerschmid/bamp/issues
 NeedsCompilation: yes
-Packaged: 2022-05-05 11:15:16 UTC; schmid
+Packaged: 2022-10-17 19:03:05 UTC; schmid
 Repository: CRAN
-Date/Publication: 2022-05-05 12:50:20 UTC
+Date/Publication: 2022-10-18 08:02:47 UTC

@@ -30,10 +30,12 @@ There are some graphical routines available in order to
 
 [Find the older standalone version here.](https://volkerschmid.github.io/bamp/articles/standaloneversion/)
 
-## BAMP R package (2.0)
+## BAMP R package (2.1)
 
 [The bamp R package is available on CRAN.](https://CRAN.R-project.org/package=bamp)
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/bamp)](https://CRAN.R-project.org/package=bamp)
+[![CRAN_Download_Badge](https://cranlogs.r-pkg.org/badges/bamp)](https://cran.r-project.org/package=bamp)
+[![CRAN_Download_Badge](https://cranlogs.r-pkg.org/badges/grand-total/bamp)](https://cran.r-project.org/package=bamp)
 <!-- badges: end -->
