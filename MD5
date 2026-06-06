@@ -1,6 +1,6 @@
-e74da95cbb675a41f7f2454a247c3f6c *DESCRIPTION
+185dcf8377b9f5281dedafaca84c55dd *DESCRIPTION
 261dc774c11b5a84eb7049fd6ba4f419 *NAMESPACE
-6adb6040eb5ad84aa73561f92bc47a90 *NEWS.md
+a5966062d6d69c689718c06e0a129460 *NEWS.md
 338440cfc9b96be79a8fd89f7c6a698b *R/apc-class.R
 398a620a29958f0b4f267d90ac7966dc *R/bamp.R
 00329caa31562ba176260ac5312b7737 *R/check_apc.R
@@ -10,14 +10,14 @@ f29e05a3c974be4b7e6ea638eee0fc64 *R/datasets.R
 c2e4dbfaa0f78dd8e3e6b462717a6e36 *R/onattach.R
 bbd2398227b5fe8861ca807feb939608 *R/plot_apc.R
 e14ce2ce1ef6190b32235cef773a1736 *R/pr_aus_ksi_berechnen.R
-02ed478dc4fb5fdb7f5a4a28e94ed4f8 *R/predict_apc.R
+3b941caada42a26978520e63bc913b95 *R/predict_apc.R
 cca2553eb8655b68652187f3bc062a3b *R/print_apc.R
 365c4cad560360a9e77cee4f97f445d7 *R/simulate_apc.R
 72d30b1a291a5c0a1b9c0a2945223d28 *R/zzz.R
 907b4b9972694a95269a2a77260ead00 *README.md
-382a91607c473ddef812e5643e128d94 *build/vignette.rds
+dfd4c9d48ab9d5778b87f78c19226f56 *build/vignette.rds
 d91af18ab131fe1884ce824a83562b7c *data/apc.rdata
-01082df3d01f96fe8332b10b259eb138 *inst/CITATION
+0bf0feb1be589fcc1ac52a60b70ab566 *inst/CITATION
 d91d55c40fc4c1d2db4d217087a3b215 *inst/doc/bamp.html
 312e7ca885c903faafe38078865d77f4 *inst/doc/bamp.html.asis
 89cb26a1de4d0339b3efa54de629b473 *inst/doc/modeling.html.asis
@@ -38,7 +38,7 @@ bb5052f3ad3bc86d4c811768a4234a75 *man/predict_apc.Rd
 3ab1ea8311bc59211b06a86a2f393490 *man/print.apc.Rd
 2a6f9e9e044a78154d3cfda5936d6f48 *src/Makevars
 6e5c9fb08a8169ab54e2383ed2657d0f *src/Makevars.win
-23df9d4d2fb9d653de9259e1d1e84893 *src/bamp.cc
+4df7d2d191d1762f3d9e3ff513336b45 *src/bamp.cc
 be4bb09edcf50a049ca9de84ae7f89f8 *src/bamp.h
 55a2aedef123c0938c18198b6ab97d95 *src/block.cc
 1ad39fe952b94e6b900db0f654f920a0 *src/block.h
@@ -62,6 +62,6 @@ b2643f0b9943d75733d2e1045dc5a45d *src/zufall.h
 89cb26a1de4d0339b3efa54de629b473 *vignettes/modeling.html.asis
 94eb9e8403618f776f51e1956d7ff151 *vignettes/prediction.html
 68486a07d52921977dfc7353ce5fa2eb *vignettes/prediction.html.asis
-9c319d76e4061c05ee5fe920268cb7ea *vignettes/publications/publications.Rmd
+c075132a03462a971c3155f66b9539a0 *vignettes/publications/publications.Rmd
 781c0bdae4fac8036fb43f6adc25e946 *vignettes/simulation.html
 e54edd84639135d62c9ca63b64e06e74 *vignettes/simulation.html.asis
