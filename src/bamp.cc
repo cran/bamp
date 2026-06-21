@@ -211,8 +211,15 @@ for (int i=0; i< number_of_agegroups; i++)
     }
 }
 
-startwert = lung_summe/bev_summe;
-startwert = log(startwert/(1-startwert));
+if (bev_summe <= 0.0) error("bamp: total population is zero");
+if (my_off[0] == 0.0) {
+  startwert = lung_summe/bev_summe;
+  if (startwert <= 0.0) startwert = 1e-6;
+  else if (startwert >= 1.0) startwert = 1.0 - 1e-6;
+  startwert = log(startwert/(1-startwert));
+} else {
+  startwert = my_off[0];
+}
 
 
 //  ***** SETTING VARIABLES *****
@@ -227,26 +234,34 @@ double* psitemp =new double[number_of_cohorts+number_of_predictions];
 double* thetatemp=new double[number_of_agegroups];
 double* phitemp=new double[number_of_periods+number_of_predictions];
 
+// Use first entries of sample arrays as starting values.
+// On the first call they are all zero (initialised in R with rep(0,...)),
+// so behaviour is identical to before.  On a restart the previous samples
+// provide warm starts that speed up convergence.
+GetRNGstate();
+
 for (int i=0; i<number_of_agegroups; i++)
-  {theta[i]=0.0;theta2[i]=0.0;}
-for (int i=0; i<number_of_periods2; i++)
-  {
-  phi[i]=0.0;phi2[i]=0.0;
-  }
+  {theta[i]=ttt[i]; theta2[i]=ttt2[i];}
+
+if (period_block>0)
+  for (int i=0; i<number_of_periods2; i++)
+    {phi[i]=pph[i]; phi2[i]=pph2[i];}
+else
+  for (int i=0; i<number_of_periods2; i++)
+    {phi[i]=0.0; phi2[i]=0.0;}
+
 if (cohort_block>0)
-{
-for (int i=0; i<number_of_cohorts2; i++)
-  {
-  psi[i]=normal(0.0,1.0);psi2[i]=normal(0.0,1.0);
-  }
-}
-if (cohort_block==0)
 {
   for (int i=0; i<number_of_cohorts2; i++)
   {
-    psi[i]=0.0;psi2[i]=0.0;
+    psi[i]=pps[i]; psi2[i]=pps2[i];
+    if (psi[i]==0.0) psi[i]=normal(0.0,1.0);
+    if (psi2[i]==0.0) psi2[i]=normal(0.0,1.0);
   }
 }
+else
+  for (int i=0; i<number_of_cohorts2; i++)
+    {psi[i]=0.0; psi2[i]=0.0;}
 
 double my=0.0;
 
@@ -770,6 +785,21 @@ if (mode==1)
 
  }//Ende Iterationsschleife
   if (verbose>=1){Rprintf("\n\n");}
+
+  PutRNGstate();
+
+  for (int i=0; i<number_of_agegroups; i++) {
+    delete[] yes[i]; delete[] no[i]; delete[] akzeptanz[i]; delete[] schalter[i];
+    delete[] y[i]; delete[] n[i]; delete[] z[i]; delete[] ksi[i];
+  }
+  delete[] yes; delete[] no; delete[] akzeptanz; delete[] schalter;
+  delete[] y; delete[] n; delete[] z; delete[] ksi;
+  delete[] ageQ; delete[] perQ; delete[] cohQ;
+  delete[] psi; delete[] theta; delete[] phi;
+  delete[] psi2; delete[] theta2; delete[] phi2;
+  delete[] psitemp; delete[] thetatemp; delete[] phitemp;
+  if (period_plus==1) delete[] period_data;
+  if (cohort_plus==1) delete[] cohort_data;
 
   return;
 }

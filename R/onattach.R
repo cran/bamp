@@ -1,4 +1,1 @@
-.onAttach<-function(libname, pkgname)
-{
-  packageStartupMessage(paste0("BAMP ver. ", utils::packageVersion("bamp")))
-}
+# .onAttach is defined in zzz.R

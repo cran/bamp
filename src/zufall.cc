@@ -8,10 +8,7 @@
 
 
 double nulleins(){
-  GetRNGstate();
-  double temp=runif(0.0, 1.0);
-  PutRNGstate();
-  return temp;
+  return runif(0.0, 1.0);
   }
 
 /* gamma verteilte Zufallszahlen; Bernardo Smith Notation */
@@ -46,8 +43,5 @@ return x/b;
 
 double normal(double m, double s)
 {
-  GetRNGstate();
-  double temp=rnorm(0,1)*sqrt(s)+m;
-  PutRNGstate();
-  return(temp);
+  return rnorm(0,1)*sqrt(s)+m;
   }

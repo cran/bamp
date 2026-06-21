@@ -1313,7 +1313,7 @@ double bedinge_lik2(int age_block, int noa, double* theta, double* Q, double* mu
 
   delete[] y;
   delete[] W;
-  //  delete[] V;
+  delete[] V;
   delete[] AV;
   delete[] M;
   delete[] temp1;
